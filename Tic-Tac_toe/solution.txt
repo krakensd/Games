@@ -1,0 +1,60 @@
+url on github
+
+https://github.com/krakensd/Tic-Tac-Toe-Submission
+
+Pseudocode for main.js
+
+Define Constants - 2 player pieces (Red & Blue) White for no player piece
+    1: blue
+   -1: red
+    null: white
+  
+  
+Winning Combos are Horizontal,Vertical or Diagnal
+    [0, 1, 2] - Horizontal
+    [3, 4, 5] - Horizontal
+    [6, 7, 8] - Horizontal
+    [0, 3, 6] - Vertical
+    [1, 4, 7] - Vertical
+    [2, 5, 8] - Vertical
+    [0, 4, 8] - Diagnal
+    [2, 4, 6] - Diagnal
+
+  
+Variables
+  gamegameboard, turn, winner;
+  
+Element references & Message
+  document.querySelectorAll('td div');
+  document.querySelector('h1');
+  
+Event listeners
+  document.querySelector('table').addEventListener('click', handleturn);
+  document.querySelector('button').addEventListener('click', initialize);
+  
+Init of functions - Make gameboard's 9 squares White
+  gameboard = [null, null, null, null, null, null, null, null, null];
+  
+  Check for Tie - Display message
+  else
+  Check for Winner - Display message
+  else
+  Keep playing 
+  
+  Handle Turn (event)
+  Obtain index of square
+  Check if square is available and return if not
+  Update state (gameboard, turn, winner)
+  
+Get Winner
+Reset Board
+Play again  
+
+Index.html 
+It will setup a 3x3 table for the game.
+
+main.css 
+Make the board look pretty by giving color
+Add a button
+
+

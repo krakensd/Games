@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Battleship</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script defer src="./JS/script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./CSS/extra.css" />
+  <link rel="stylesheet" href="./CSS/style.css" />
+</head>
+
+<body>
+  <nav>
+    <div id="nav-div">
+      <h1>BattleShip</h1>
+      <span id="game-over"></span>
+    </div>
+  </nav>
+  <div id="start-withboards">
+    <div id="both-games-wrapper">
+      <div id="user-board-wrapper">
+        <div class="info-wrapper">
+          <div class="side-controls side-controls-top">
+            <div class="slidecontainer">
+              <span class="vert-horiz">Vertical</span>
+              <span class="vert-horiz">Horizontal</span>
+            </div>
+            <div class="info-div">
+              <input type="range" min="1" max="100" value="50" class="vertical-horizontal-slider"
+                id="vertical-horizontal-slider" />
+              <button id="restart" class="btn btn-warning">New Game</button>
+              <button id="start" class="btn btn-primary">Start The Battle</button>
+            </div>
+          </div>
+          <div class="side-controls side-bottom">
+            <h4 class="stats">Statistics</h4>
+            <div class="infotextwrap">
+              <p class="info-text">Total Shots: <span id="hits">0</span></p>
+              <p class="info-text">User Kills: <span id="kills">0</span></p>
+              <p class="info-text">Ai Kills:<span id="ai-kills">0</span></p>
+            </div>
+          </div>
+        </div>
+        <table id="user-game-table"></table>
+      </div>
+      <div id="ai-board-wrapper">
+        <table id="ai-game-table"></table>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

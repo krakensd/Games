@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>My Connect 4 Game</title>
+        <link rel="stylesheet" href="css\main.css">
+        <script src="js/main.js"></script>
+    </head>
+
+
+    <body>
+        <h1>My Simple Connect 4 Game</h1>
+        <h2 id="winner"></h2>
+        <div id="board"></div>
+
+    </body>
+
+
+</html>

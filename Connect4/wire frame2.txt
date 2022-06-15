@@ -1,0 +1,16 @@
+Define constants 3 marks Blue Red White and total number of turns
+Define the apps variables, to track game state of board,player,turn and winner.  Also P1 score and P2 score and total turns
+Elements play buttons Blue (P1) Red (P2) 
+Elemennts add sound on-off state of game and button for playing the game again
+Event listeners for move, play again, sound on/off
+Initialize board.  Board start empty, P1 turn 
+Transfer all variables to DOM
+Function to transfer variables to DOM
+Column and circle and index on Click
+Switch player turns
+Game win function
+Winner, Loser.Tie
+Play again goto reset board
+Players play again
+https://github.com/krakensd/Connect-4-Game/edit/main/README.md
+https://whimsical.com/my-connect-4-C5Bt7BKF17QztLkuaiLMUA
